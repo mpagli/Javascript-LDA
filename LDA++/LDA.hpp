@@ -262,7 +262,7 @@ class LDA {
 			}
 
 			int denseIdx = 0;
-			for(int topicIdx=0;topicIdx<numTopics;++numTopics){
+			for(int topicIdx=0;topicIdx<numTopics;++topicIdx){
 				if(localTopicCounts[topicIdx]!=0){
 					localTopicIdx[denseIdx] = topicIdx;
 					denseIdx++;
